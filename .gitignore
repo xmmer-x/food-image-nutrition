@@ -1,0 +1,17 @@
+# Default to excluding local course material and runtime files.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/food_server/
+
+/food_server/*
+!/food_server/main.py
+!/food_server/modules/
+
+/food_server/modules/*
+!/food_server/modules/__init__.py
+!/food_server/modules/image_cutter.py
+!/food_server/modules/food_classifier.py
+!/food_server/modules/fat_lean_ratio.py
+!/food_server/modules/nutrition_analyzer.py
